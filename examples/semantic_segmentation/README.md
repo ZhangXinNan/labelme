@@ -3,20 +3,32 @@
 ## Annotation
 
 ```bash
+<<<<<<< HEAD
 labelme data_annotated --labels labels.txt --nodata
+=======
+labelme data_annotated --labels labels.txt --nodata --validatelabel exact --config '{shift_auto_shape_color: -2}'
+>>>>>>> upstream/master
 ```
 
 ![](.readme/annotation.jpg)
 
 
+<<<<<<< HEAD
 ## Convert to VOC-like Dataset
+=======
+## Convert to VOC-format Dataset
+>>>>>>> upstream/master
 
 ```bash
 # It generates:
 #   - data_dataset_voc/JPEGImages
 #   - data_dataset_voc/SegmentationClass
 #   - data_dataset_voc/SegmentationClassVisualization
+<<<<<<< HEAD
 ./labelme2voc.py labels.txt data_annotated data_dataset_voc
+=======
+./labelme2voc.py data_annotated data_dataset_voc --labels labels.txt
+>>>>>>> upstream/master
 ```
 
 <img src="data_dataset_voc/JPEGImages/2011_000003.jpg" width="33%" /> <img src="data_dataset_voc/SegmentationClassPNG/2011_000003.png" width="33%" /> <img src="data_dataset_voc/SegmentationClassVisualization/2011_000003.jpg" width="33%" />

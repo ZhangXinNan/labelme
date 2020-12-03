@@ -1,9 +1,17 @@
 {
+<<<<<<< HEAD
   "shapes": [
     {
       "label": "person",
       "line_color": null,
       "fill_color": null,
+=======
+  "version": "4.0.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "person",
+>>>>>>> upstream/master
       "points": [
         [
           204.936170212766,
@@ -105,12 +113,22 @@
           216.936170212766,
           112.56382978723406
         ]
+<<<<<<< HEAD
       ]
     },
     {
       "label": "person",
       "line_color": null,
       "fill_color": null,
+=======
+      ],
+      "group_id": null,
+      "shape_type": "polygon",
+      "flags": {}
+    },
+    {
+      "label": "person",
+>>>>>>> upstream/master
       "points": [
         [
           271.936170212766,
@@ -188,12 +206,22 @@
           296.936170212766,
           148.56382978723406
         ]
+<<<<<<< HEAD
       ]
     },
     {
       "label": "person",
       "line_color": null,
       "fill_color": null,
+=======
+      ],
+      "group_id": null,
+      "shape_type": "polygon",
+      "flags": {}
+    },
+    {
+      "label": "person",
+>>>>>>> upstream/master
       "points": [
         [
           308.936170212766,
@@ -259,6 +287,7 @@
           336.936170212766,
           115.56382978723406
         ]
+<<<<<<< HEAD
       ]
     },
     {
@@ -332,6 +361,83 @@
       "label": "person",
       "line_color": null,
       "fill_color": null,
+=======
+      ],
+      "group_id": null,
+      "shape_type": "polygon",
+      "flags": {}
+    },
+    {
+      "label": "chair",
+      "points": [
+        [
+          308.936170212766,
+          243.33306055646483
+        ],
+        [
+          281.936170212766,
+          252.33306055646483
+        ],
+        [
+          270.936170212766,
+          288.33306055646483
+        ],
+        [
+          174.936170212766,
+          276.33306055646483
+        ],
+        [
+          148.936170212766,
+          297.33306055646483
+        ],
+        [
+          150.936170212766,
+          320.33306055646483
+        ],
+        [
+          159.936170212766,
+          329.33306055646483
+        ],
+        [
+          164.77327127659578,
+          375.7692307692308
+        ],
+        [
+          485.936170212766,
+          374.33306055646483
+        ],
+        [
+          497.936170212766,
+          337.33306055646483
+        ],
+        [
+          497.936170212766,
+          203.33306055646483
+        ],
+        [
+          453.936170212766,
+          194.33306055646483
+        ],
+        [
+          434.936170212766,
+          213.33306055646483
+        ],
+        [
+          367.936170212766,
+          225.33306055646483
+        ],
+        [
+          350.936170212766,
+          242.33306055646483
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "polygon",
+      "flags": {}
+    },
+    {
+      "label": "person",
+>>>>>>> upstream/master
       "points": [
         [
           425.936170212766,
@@ -357,12 +463,22 @@
           446.936170212766,
           91.56382978723406
         ]
+<<<<<<< HEAD
       ]
     },
     {
       "label": "__ignore__",
       "line_color": null,
       "fill_color": null,
+=======
+      ],
+      "group_id": null,
+      "shape_type": "polygon",
+      "flags": {}
+    },
+    {
+      "label": "__ignore__",
+>>>>>>> upstream/master
       "points": [
         [
           457.936170212766,
@@ -380,12 +496,22 @@
           474.936170212766,
           87.56382978723406
         ]
+<<<<<<< HEAD
       ]
     },
     {
       "label": "sofa",
       "line_color": null,
       "fill_color": null,
+=======
+      ],
+      "group_id": null,
+      "shape_type": "polygon",
+      "flags": {}
+    },
+    {
+      "label": "sofa",
+>>>>>>> upstream/master
       "points": [
         [
           183.936170212766,
@@ -423,12 +549,22 @@
           110.93617021276599,
           203.56382978723406
         ]
+<<<<<<< HEAD
       ]
     },
     {
       "label": "sofa",
       "line_color": null,
       "fill_color": null,
+=======
+      ],
+      "group_id": null,
+      "shape_type": "polygon",
+      "flags": {}
+    },
+    {
+      "label": "sofa",
+>>>>>>> upstream/master
       "points": [
         [
           103.93617021276599,
@@ -442,12 +578,22 @@
           97.93617021276599,
           311.56382978723406
         ]
+<<<<<<< HEAD
       ]
     },
     {
       "label": "sofa",
       "line_color": null,
       "fill_color": null,
+=======
+      ],
+      "group_id": null,
+      "shape_type": "polygon",
+      "flags": {}
+    },
+    {
+      "label": "sofa",
+>>>>>>> upstream/master
       "points": [
         [
           348.936170212766,
@@ -485,12 +631,22 @@
           353.936170212766,
           164.56382978723406
         ]
+<<<<<<< HEAD
       ]
     },
     {
       "label": "sofa",
       "line_color": null,
       "fill_color": null,
+=======
+      ],
+      "group_id": null,
+      "shape_type": "polygon",
+      "flags": {}
+    },
+    {
+      "label": "sofa",
+>>>>>>> upstream/master
       "points": [
         [
           246.936170212766,
@@ -508,6 +664,7 @@
           261.936170212766,
           256.56382978723406
         ]
+<<<<<<< HEAD
       ]
     }
   ],
@@ -525,4 +682,16 @@
   ],
   "imagePath": "2011_000006.jpg",
   "imageData": null
+=======
+      ],
+      "group_id": null,
+      "shape_type": "polygon",
+      "flags": {}
+    }
+  ],
+  "imagePath": "2011_000006.jpg",
+  "imageData": null,
+  "imageHeight": 375,
+  "imageWidth": 500
+>>>>>>> upstream/master
 }

@@ -2,7 +2,10 @@ from qtpy import QtWidgets
 
 
 class ColorDialog(QtWidgets.QColorDialog):
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/master
     def __init__(self, parent=None):
         super(ColorDialog, self).__init__(parent)
         self.setOption(QtWidgets.QColorDialog.ShowAlphaChannel)
@@ -25,6 +28,13 @@ class ColorDialog(QtWidgets.QColorDialog):
         return self.currentColor() if self.exec_() else None
 
     def checkRestore(self, button):
+<<<<<<< HEAD
         if self.bb.buttonRole(button) & \
                 QtWidgets.QDialogButtonBox.ResetRole and self.default:
+=======
+        if (
+            self.bb.buttonRole(button) & QtWidgets.QDialogButtonBox.ResetRole
+            and self.default
+        ):
+>>>>>>> upstream/master
             self.setCurrentColor(self.default)

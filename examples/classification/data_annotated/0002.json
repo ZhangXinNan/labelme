@@ -1,10 +1,15 @@
 {
+<<<<<<< HEAD
+=======
+  "version": "4.0.0",
+>>>>>>> upstream/master
   "flags": {
     "__ignore__": false,
     "cat": false,
     "dog": true
   },
   "shapes": [],
+<<<<<<< HEAD
   "lineColor": [
     0,
     255,
@@ -19,4 +24,10 @@
   ],
   "imagePath": "0002.jpg",
   "imageData": null
+=======
+  "imagePath": "0002.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640
+>>>>>>> upstream/master
 }

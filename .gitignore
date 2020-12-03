@@ -8,3 +8,7 @@
 *.py[cdo]
 
 .DS_Store
+<<<<<<< HEAD
+=======
+.idea/
+>>>>>>> upstream/master

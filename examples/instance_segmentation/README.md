@@ -3,12 +3,21 @@
 ## Annotation
 
 ```bash
+<<<<<<< HEAD
 labelme data_annotated --labels labels.txt --nodata
+=======
+labelme data_annotated --labels labels.txt --nodata --validatelabel exact --config '{shift_auto_shape_color: -2}'
+labelme data_annotated --labels labels.txt --nodata --labelflags '{.*: [occluded, truncated], person-\d+: [male]}'
+>>>>>>> upstream/master
 ```
 
 ![](.readme/annotation.jpg)
 
+<<<<<<< HEAD
 ## Convert to VOC-like Dataset
+=======
+## Convert to VOC-format Dataset
+>>>>>>> upstream/master
 
 ```bash
 # It generates:
@@ -17,7 +26,11 @@ labelme data_annotated --labels labels.txt --nodata
 #   - data_dataset_voc/SegmentationClassVisualization
 #   - data_dataset_voc/SegmentationObject
 #   - data_dataset_voc/SegmentationObjectVisualization
+<<<<<<< HEAD
 ./labelme2voc.py labels.txt data_annotated data_dataset_voc
+=======
+./labelme2voc.py data_annotated data_dataset_voc --labels labels.txt
+>>>>>>> upstream/master
 ```
 
 <img src="data_dataset_voc/JPEGImages/2011_000003.jpg" width="33%" /> <img src="data_dataset_voc/SegmentationClassVisualization/2011_000003.jpg" width="33%" /> <img src="data_dataset_voc/SegmentationObjectVisualization/2011_000003.jpg" width="33%" />  
@@ -34,3 +47,16 @@ labelme_draw_label_png data_dataset_voc/SegmentationObjectPNG/2011_000003.png  #
 ```
 
 <img src=".readme/draw_label_png_class.jpg" width="33%" /> <img src=".readme/draw_label_png_object.jpg" width="33%" />
+<<<<<<< HEAD
+=======
+
+
+## Convert to COCO-format Dataset
+
+```bash
+# It generates:
+#   - data_dataset_coco/JPEGImages
+#   - data_dataset_coco/annotations.json
+./labelme2coco.py data_annotated data_dataset_coco --labels labels.txt
+```
+>>>>>>> upstream/master

@@ -3,7 +3,10 @@ from qtpy import QtWidgets
 
 
 class ToolBar(QtWidgets.QToolBar):
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/master
     def __init__(self, title):
         super(ToolBar, self).__init__(title)
         layout = self.layout()
@@ -16,11 +19,16 @@ class ToolBar(QtWidgets.QToolBar):
     def addAction(self, action):
         if isinstance(action, QtWidgets.QWidgetAction):
             return super(ToolBar, self).addAction(action)
+<<<<<<< HEAD
         btn = ToolButton()
+=======
+        btn = QtWidgets.QToolButton()
+>>>>>>> upstream/master
         btn.setDefaultAction(action)
         btn.setToolButtonStyle(self.toolButtonStyle())
         self.addWidget(btn)
 
+<<<<<<< HEAD
 
 class ToolButton(QtWidgets.QToolButton):
 
@@ -34,3 +42,11 @@ class ToolButton(QtWidgets.QToolButton):
         w2, h2 = self.minSize
         self.minSize = max(w1, w2), max(h1, h2)
         return QtCore.QSize(*self.minSize)
+=======
+        # center align
+        for i in range(self.layout().count()):
+            if isinstance(
+                self.layout().itemAt(i).widget(), QtWidgets.QToolButton
+            ):
+                self.layout().itemAt(i).setAlignment(QtCore.Qt.AlignCenter)
+>>>>>>> upstream/master
